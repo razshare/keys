@@ -1,0 +1,135 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-c": "terminal::Copy"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-v": "terminal::Paste"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-c": ["terminal::SendKeystroke", "ctrl-c"]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "f1": "file_finder::Toggle"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-p": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "ctrl-shift-e": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-b": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-;": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-pageup": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-pageup": "pane::SwapItemLeft"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-pagedown": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-pagedown": "pane::SwapItemRight"
+    }
+  },
+  {
+    "context": "KeymapEditor",
+    "bindings": {
+      "ctrl-t": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-up": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-down": "editor::MoveLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-c": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-enter": "editor::GoToDefinition"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-b": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-w": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-2": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-1": "project_panel::ToggleFocus"
+    }
+  }
+]
